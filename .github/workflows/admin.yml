@@ -2,7 +2,7 @@ name: Run admin.py
 
 on:
   schedule:
-    - cron: '30 0 * * *'  # 每天凌晨 0 点 30 分
+    - cron: '30 16 * * *'  # 每天下午 16 点 30 分（即北京时间凌晨 0 点 30 分）
   push:
     branches:
       - master
